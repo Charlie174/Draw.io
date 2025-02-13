@@ -1,9 +1,162 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="T2e4uhzn7L_7Nx4y8A0f">
-    <mxGraphModel>
+    <mxGraphModel dx="1489" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-2" value="Patient Places Foot on Scanner" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="17.5" width="263" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-3" value="Pressure Sensor Activates" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="141.5" y="95.5" width="230" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-4" value="Strip-by-Strip Image Capture" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="136.5" y="170" width="240" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-5" target="PNcExrpaa4TOweJ_eOC_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-5" target="PNcExrpaa4TOweJ_eOC_-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="270" />
+              <mxPoint x="450" y="32" />
+              <mxPoint x="674" y="32" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-67" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;System Detect&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;Error Detected&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;" vertex="1" connectable="0" parent="PNcExrpaa4TOweJ_eOC_-66">
+          <mxGeometry x="-0.3164" y="3" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-5" value="Image Stitching &amp; Processing" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="130.5" y="252" width="252" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-6" value="Images Uploaded to Cloud" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="143" y="321" width="227" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-7" target="PNcExrpaa4TOweJ_eOC_-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-47" value="If Doctor Identifies Distortion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;rotation=0;textShadow=1;horizontal=0;" vertex="1" connectable="0" parent="PNcExrpaa4TOweJ_eOC_-37">
+          <mxGeometry x="-0.5005" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-180" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-7" target="PNcExrpaa4TOweJ_eOC_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-7" value="Doctor Reviews Images" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="153" y="390" width="205" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-8" value="Doctor Provides Feedback" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="141.5" y="461.5" width="227" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-9" target="PNcExrpaa4TOweJ_eOC_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="388.02" y="550.4999999999999" as="sourcePoint" />
+            <mxPoint x="689.52" y="81" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="388" y="541" />
+              <mxPoint x="586" y="540" />
+              <mxPoint x="586" y="76" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-46" value="If Patient Notices Malfunction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;rotation=0;textShadow=1;horizontal=0;" vertex="1" connectable="0" parent="PNcExrpaa4TOweJ_eOC_-38">
+          <mxGeometry x="-0.4941" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-253" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-9" value="Patient Receives Feedback" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="138.5" y="524" width="234" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-10" value="Operator, Doctor, or Patient &#xa;Detects Issue" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="688" y="17.5" width="233" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-11" value="Report Sent to Maintenance Team" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="683" y="132" width="242" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-12" target="PNcExrpaa4TOweJ_eOC_-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-12" value="Reprocessing &amp; Recalibration" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="678" y="330" width="251" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-13" value="Update System Logs &amp; Notify User" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="675.5" y="667" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-14" target="PNcExrpaa4TOweJ_eOC_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-14" value="Manual Maintenance Intervention" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="832" y="480" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-15" value="Remote Troubleshooting or Physical Repair" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="812" y="570" width="230" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-2" target="PNcExrpaa4TOweJ_eOC_-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-3" target="PNcExrpaa4TOweJ_eOC_-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-4" target="PNcExrpaa4TOweJ_eOC_-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-6" target="PNcExrpaa4TOweJ_eOC_-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-8" target="PNcExrpaa4TOweJ_eOC_-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-10" target="PNcExrpaa4TOweJ_eOC_-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-24" value="Automated &#xa;Correction &#xa;Attempt" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;strokeWidth=2;horizontal=0;textShadow=1;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-11" target="PNcExrpaa4TOweJ_eOC_-12">
+          <mxGeometry x="-0.0606" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-15" target="PNcExrpaa4TOweJ_eOC_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="640" as="sourcePoint" />
+            <mxPoint x="860" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-54" target="PNcExrpaa4TOweJ_eOC_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-65" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;rotation=0;" vertex="1" connectable="0" parent="PNcExrpaa4TOweJ_eOC_-59">
+          <mxGeometry x="-0.3646" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="PNcExrpaa4TOweJ_eOC_-54" target="PNcExrpaa4TOweJ_eOC_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PNcExrpaa4TOweJ_eOC_-60">
+          <mxGeometry x="-0.328" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNcExrpaa4TOweJ_eOC_-54" value="&lt;span style=&quot;font-size: 18px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Issue &lt;br&gt;Fixed&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="691" y="396.5" width="100" height="100.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
